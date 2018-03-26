@@ -74,3 +74,7 @@ Git官网下载安装程序
 4. 关联远程仓库： `git remote add origin https://github.com/simphp/beginning-git.git`
 5. 第一次本地仓库内容推送到远程仓库，并关联分支： `git push -u origin master`
 6. 本地master分支推送到Github： `$ git push origin master`
+
+## 6.从远程仓库克隆
+
+`git clone https://github.com/simphp/beginning-git.git`
