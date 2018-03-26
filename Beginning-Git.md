@@ -44,8 +44,9 @@ Git官网下载安装程序
 * 比较两个版本： `$ git diff <版本号> <版本号>`
 
 ### 查看提交日志
-`$ git log`
-参数：`--pretty=oneline`
+* 查看 `$ git log`
+* 参数：`--pretty=oneline`
+* 退出：`q`
 
 ### 版本回滚
 * 回滚到上1个版本 `$ git reset --hard HEAD^`
