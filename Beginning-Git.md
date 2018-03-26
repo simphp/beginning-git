@@ -64,3 +64,13 @@ Git官网下载安装程序
 ### 删除文件
 删除文件： `$ git rm <file>`
 撤销删除： `$ git checkout -- <file>`
+
+## 5.远程仓库
+### Github
+
+1. SSH KEY: 查看用户主目录下是否存在`.ssh`目录，里面有`id_rsa`和`id_rsa.pub`。如果不存在，创建: `$ ssh-keygen -t rsa -C "email@xxx.com"`
+2. 在Github里添加SSH Key: Github -> Account setting -> SSH Keys -> Add SSH Key ，在Key里面添加`id_rsa.pub`文件的内容。
+3. 创建远程仓库
+4. 关联远程仓库： `git remote add origin https://github.com/simphp/beginning-git.git`
+5. 第一次本地仓库内容推送到远程仓库，并关联分支： `git push -u origin master`
+6. 本地master分支推送到Github： `$ git push origin master`
