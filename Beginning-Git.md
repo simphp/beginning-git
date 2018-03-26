@@ -14,3 +14,9 @@ Git: 分布式版本管理系统
 
 ### Windows上安装Git
 Git官网下载安装程序
+
+## 3.设置用户信息
+### 全局设置
+`$ git config --global user.name "Userame"`
+`$ git config --global user.email "email@xxx.com"`
+### 对某个仓库设置
